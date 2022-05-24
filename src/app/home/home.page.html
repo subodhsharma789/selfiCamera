@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="text-center">
+      Japanese Camera
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-icon name="camera" (click)="OpenCamera()" style="font-size: xxx-large;"></ion-icon>
+  </div>
+  <img [src]="clickedImage" />
+  <!-- <input type="file" #file value="clickedImage"> -->
+</ion-content>
+
+<ion-footer class="pb-4">
+  
+  <ion-row class="d-flex justify-content-around">
+  <a href="https://www.google.co.in" style="color: white;"><ion-icon name="logo-chrome" style="font-size: larger;"></ion-icon></a>
+  <a href="https://www.facebook.com" style="color: white;"><ion-icon name="logo-facebook" style="font-size: larger;"></ion-icon></a>
+  <a href="https://www.instagram.com" style="color: white;"><ion-icon name="logo-instagram" style="font-size: larger;"></ion-icon></a>
+  <a href="https://www.twitter.com" style="color: white;"><ion-icon name="logo-twitter" style="font-size: larger;"></ion-icon></a>
+</ion-row>
+</ion-footer>
+
+
+
+
+
+
